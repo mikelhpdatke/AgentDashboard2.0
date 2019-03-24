@@ -1,0 +1,72 @@
+:root {
+  --main-bg-color:#EFEFEF ;
+  --second-bg-color:#FFFFFF;
+  --add-color:#0E1623;
+  --lineTextBr-color:#BC221B;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.img {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid green;
+  height: 50px;
+  width: 65px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.h4Title{
+    text-align: center;
+    color: var(--lineTextBr-color);
+    background-color: var(--main-bg-color);
+    padding: 10px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    color: var(--second-bg-color);
+    background-color: var(--add-color);
+    padding: 10px;
+    font-size: 27px;
+}
+
+hr {
+  color: #f00;
+  background-color: #f00;
+  height: 5px;
+}
+
+.main-bg-color{
+  background-color: red;
+}

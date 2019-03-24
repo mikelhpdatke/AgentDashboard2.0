@@ -1,0 +1,13 @@
+smurf 0
+back 0
+teardrop 1
+ipsweep 0
+guess_passwd 0
+pod 0
+portsweep 0
+buffer_overflow 0
+ftp_write 0
+neptune 0
+land 0
+perl 0
+loadmodule 0
